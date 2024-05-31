@@ -1,0 +1,1 @@
+## A mini activity, basically a photography page made up using only HTML &  CSS.

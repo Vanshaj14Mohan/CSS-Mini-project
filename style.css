@@ -11,7 +11,7 @@
     background-size: cover;
 }
 
-.btn_one{
+.btn_one i{
     color:white;
     font-size:30px;
     font-weight:700;
@@ -19,6 +19,7 @@
     left:16px;
     line-height:60px;
     cursor:pointer;
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu {
@@ -28,13 +29,15 @@
     width:280px;
     background-color: rbga(255, 255, 255, 0.3);
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu .logo{
     position:absolute;
     width:100%;
     line-height:60px;
-    box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+    height:60px;
 }
 
 .sidebar_menu .logo a{
@@ -60,6 +63,7 @@
     left:245px;
     opacity:0;
     cursor:pointer;
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu .menu li{
